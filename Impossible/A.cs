@@ -2,8 +2,6 @@
 {
     public class A
     {
-        private static int Counter = 1;
-
         public static bool operator == (A obj1, int obj2)
         {
             return true;
