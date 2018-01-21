@@ -6,7 +6,7 @@
 
         public static bool operator == (A obj1, int obj2)
         {
-            return (Counter++ == obj2);
+            return true;
         }
 
         public static bool operator !=(A obj1, int obj2)
