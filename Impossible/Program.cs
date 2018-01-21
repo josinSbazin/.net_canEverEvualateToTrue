@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Impossible
 {
@@ -10,6 +6,10 @@ namespace Impossible
     {
         static void Main(string[] args)
         {
+            A a = new A();
+
+            Console.WriteLine(a == 1 && a== 2 && a==3);
+            Console.ReadKey();
         }
     }
 }
